@@ -1,0 +1,72 @@
+/* ==========================================================================
+   Masthead
+   ========================================================================== */
+
+.masthead {
+  padding-top: 30px;
+  background: $base-color;
+  @include clearfix;
+  @include media($medium) {
+    margin-top: 0;
+  }
+  .wrap {
+    text-align: center;
+  }
+}
+
+/*
+   Site logo
+   ========================================================================== */
+
+.site-logo {
+  img {
+    width: 250px;
+    margin-bottom:20px;
+
+    @include animation-duration(1s);
+    @include animation-delay(.05s);
+
+    @include media($medium) {
+      width: 300px;
+    }
+
+    @include media($large) {
+      width: 350px;
+    }
+  }
+}
+
+/*
+   Site title/name
+   ========================================================================== */
+
+.site-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  background:$body-color;
+  a {
+    color: $black;
+  }
+}
+
+/*
+   Site description text
+   ========================================================================== */
+
+.site-description {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  font-family: $alt-font;
+  font-weight: 400;
+  font-style: italic;
+  background:$body-color;
+
+  font-size: 16px;
+
+  @include media($medium) {
+    font-size: 20px;
+  }
+}
