@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "La réussite d'un club de foot professionnel booste-t-elle l'économie locale ? Recette pour une étude  d'impact “maison”"
-excerpt: "Avec la tenue de l’Euro 2016 en France, nombreuses sont les villes qui se dotent de nouveaux stades, comme Bordeaux, Lille ou Lyon. Des stades qui coûtent cher aux contribuables et dont on ne connait pas, au-delà des promesses, l’impact sur l’économie locale. "
+title: "La réussite d'un club de foot professionnel booste-t-elle l'économie locale ?"
+excerpt: "Recette pour une étude  d'impact “maison”"
 author: laura
 date: "2015-12-09"
 ---
@@ -17,7 +17,7 @@ Etudier l'impact économique des clubs : quel intérêt ?
 
 De nombreuses villes investissent dans la construction de nouveaux stades, à l’instar de la ville de Nice et son nouveau stade Allianz Riviera. Construit pour 225 millions sur 30 ans d’après Christian Estrosi - ou plutôt le double d’après la [cour régionale des comptes](http://latta.blog.lemonde.fr/2015/07/10/le-stade-de-nice-une-farce-couteuse-aux-depens-de-la-ville/), le stade de Nice est loin d’être un cas isolé.
 
-Avec la tenue de l’Euro 2016 en France, nombreuses sont les villes qui se dotent de nouveaux stades, comme Bordeaux, Lille ou Lyon. Des stades qui coûtent cher aux contribuables et dont on ne connait pas, au-delà des promesses, l’impact sur l’économie locale. 
+Avec la tenue de l’Euro 2016 en France, Bordeaux, Lille ou Lyon se dotent de nouveaux stades. Des stades qui coûtent cher aux contribuables et dont on ne connait pas, au-delà des promesses, l’impact sur l’économie locale. 
 
 Recette pour une étude d’impact “maison”
 ---
@@ -32,11 +32,11 @@ La santé économique locale est un phénomène complexe, qu’on ne peut pas r�
 
 **Le choix du territoire à étudier**
 
-Mon choix s’est porté sur les  “zones d’emploi”. Sous ce nom peu commun se cache en réalité qu’un “espace géographique à l'intérieur duquel la plupart des actifs résident et travaillent, et dans lequel les établissements peuvent trouver l'essentiel de la main d'œuvre nécessaire pour occuper les emplois offerts” (INSEE). La zone d’emploi rassemble ainsi souvent une ville et sa banlieue. Ce découpage est celui qui m’est apparu le plus pertinent pour notre analyse, puisqu’elle inclut les personnes qui travaillent en ville mais habitent en banlieue, contrairement au découpage “ville”. Néanmois son caractère récent m’empêche d’utiliser certains indicateurs, comme le taux de pauvreté, dont les données antérieures à 2012 ne sont pas encore disponibles pour les zones d’emploi. 
+Notre choix s’est porté sur les  “zones d’emploi”. Sous ce nom peu commun se cache en réalité qu’un “espace géographique à l'intérieur duquel la plupart des actifs résident et travaillent, et dans lequel les établissements peuvent trouver l'essentiel de la main d'œuvre nécessaire pour occuper les emplois offerts” (INSEE). La zone d’emploi rassemble ainsi souvent une ville et sa banlieue. Ce découpage est celui qui nous est apparu le plus pertinent pour notre analyse, puisqu’elle inclut les personnes qui travaillent en ville mais habitent en banlieue, contrairement au découpage “ville”. Néanmois son caractère récent nous empêche d’utiliser certains indicateurs, comme le taux de pauvreté, dont les données antérieures à 2012 ne sont pas encore disponibles pour les zones d’emploi. 
 
 **Le choix de la période à étudier**
 
-Là encore, la tentation est grande de choisir d’emblée une période de temps très longue. Toutes les données de 2012 étaient présentes en accès libre sur le site de l’INSEE. L’obtention des données historiques a nécessité de les contacter. Après une discussion rapide et efficace avec leur service presse, la plupart des données demandées m’ont été envoyées pour l’année 2007. Certains indicateurs, comme la population par zone d’emploi par exemple, ne sont disponibles que tous les 5 ans, lorsqu’un recensement est conduit. Remonter 2007 pose problème dans la mesure où les définitions des découpages et des indicateurs ont changé. 
+Là encore, la tentation est grande de choisir d’emblée une période de temps très longue. Toutes les données de 2012 étaient présentes en accès libre sur le site de l’INSEE. L’obtention des données historiques a nécessité de les contacter. Après une discussion rapide et efficace avec leur service presse, la plupart des données demandées nous ont été envoyées pour l’année 2007. Certains indicateurs, comme la population par zone d’emploi par exemple, ne sont disponibles que tous les 5 ans, lorsqu’un recensement est conduit. Remonter avant 2007 pose problème dans la mesure où les définitions des découpages et des indicateurs ont changé. 
 
 ![Là, tout n'est qu'ordre et beauté](../images/EXCEL_INSEE.png)
 
@@ -60,7 +60,7 @@ Bonheur, la meilleure mesure s’avère dans ce cas-ci être la plus simple d’
 
 ### Quels ustensiles ?
 
-Google spreadsheet est un outil extrêmement utile lorsqu’il s’agit de faire de rapides analyses sur les données. Mais pour faire une analyse statistique, il m’a fallu utiliser un script R. 
+Google spreadsheet est un outil extrêmement utile lorsqu’il s’agit de faire de rapides analyses sur les données. Mais pour faire une analyse statistique, il nous a fallu utiliser un script R. 
 
 ![Much R, such waouh](../images/LOGO-R.png)
 
@@ -98,6 +98,4 @@ Nous ne pouvons donc pas affirmer que cette corrélation n’existe pas. Néanmo
 Mesurer un phénomène, c’est montrer la réalité sous un prisme particulier défini par des critères précis. Les chiffres ne sont en rien une vérité objective, mais seulement une image partielle de la réalité selon une certaine définition.
 
 En choisissant les indicateurs de santé économique, nous avons donc dû combiner plusieurs indicateurs imparfaits.
-Le taux de chômage par exemple ne pas en compte les chômeurs radiés du Pôle Emploi.
-
-De même, la variation de la population due au solde apparent des entrées-sorties peut être due en partie à d’autres mouvements que des mouvements voulus.
+La variation de la population due au solde apparent des entrées-sorties peut être due en partie à d’autres mouvements que des mouvements voulus.
